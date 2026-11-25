@@ -1,0 +1,22 @@
+{
+  "name": "rcmc-presentation-mcp",
+  "version": "1.0.0",
+  "description": "RCMC Presentation & Canvas MCP Server for Gemini Enterprise",
+  "main": "src/mcp_server.js",
+  "scripts": {
+    "start": "node src/mcp_server.js",
+    "http": "node src/http_server.js",
+    "test": "node src/test_generate.js",
+    "cli": "node src/cli_test.js"
+  },
+  "keywords": [
+    "mcp",
+    "rcmc",
+    "gemini",
+    "powerpoint",
+    "canvas",
+    "presentation"
+  ],
+  "author": "RCMC",
+  "license": "UNLICENSED"
+}
